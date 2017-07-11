@@ -14,7 +14,6 @@
 | path to your installation.
 |
 */
-// $config['base_url']	= 'http://mpsconsults.com';
 $config['base_url']	= 'http://localhost/mpsconsults';
 
 /*
@@ -225,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '61ca708ff44972038fa1bd91f0ff8150';
+$config['encryption_key'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -245,7 +244,7 @@ $config['encryption_key'] = '61ca708ff44972038fa1bd91f0ff8150';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'd602de185e70ce1b4ed08f9e5164aad8';
+$config['sess_cookie_name']		= '';
 $config['sess_expiration']		= 7200;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= TRUE;
